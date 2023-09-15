@@ -33,7 +33,6 @@ h2 {
 }
 
 #container {
-  width: 700px;
   margin: 150px, auto;
   background-color: #eee;
   overflow: hidden;
@@ -63,5 +62,5 @@ h2 {
 }
 #sidebar {
   width: 200px;
-  float: left;
+  float: right;
 }
