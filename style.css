@@ -11,6 +11,15 @@ body {
   margin: 30px;
 }
 
+a {
+  color: #48577d;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 h1,
 h2 {
   margin-bottom: 15px;
@@ -42,8 +51,16 @@ h2 {
 
 #main table th {
   padding: 10px;
+  background-color: #48577d;
+  color: #fff;
+  text-align: left;
 }
-
+#main table td {
+  padding: 5px;
+}
+#main table tr {
+  background-color: #d3dcf2;
+}
 #sidebar {
   width: 200px;
   float: left;
